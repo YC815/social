@@ -96,7 +96,7 @@ export function ContactCard() {
               <AvatarFallback>YC</AvatarFallback>
             </Avatar>
             <div>
-              <CardTitle>Yushun&apos;s contact info</CardTitle>
+              <CardTitle>Yushun&apos;s Contact Info</CardTitle>
               <CardDescription>選擇您喜歡的方式與我聯絡</CardDescription>
             </div>
           </div>
