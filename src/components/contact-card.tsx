@@ -96,8 +96,8 @@ export function ContactCard() {
               <AvatarFallback>YC</AvatarFallback>
             </Avatar>
             <div>
-              <CardTitle>Yushun&apos;s Contact Info</CardTitle>
-              <CardDescription>選擇您喜歡的方式與我聯絡</CardDescription>
+              <CardTitle className="hidden sm:block">Yushun&apos;s Contact Info</CardTitle>
+              <CardDescription className="hidden sm:block">選擇您喜歡的方式與我聯絡</CardDescription>
             </div>
           </div>
           <Button
