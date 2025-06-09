@@ -133,12 +133,14 @@ export function ContactCard() {
                   </div>
                   <Button
                     variant="outline"
-                    className="flex-1 min-w-0 justify-start group-hover:border-primary dark:border-stone-700 dark:hover:border-stone-600"
+                    className="flex-1 min-w-0 justify-between group-hover:border-primary dark:border-stone-700 dark:hover:border-stone-600"
                     onClick={() => window.open(contact.link, '_blank')}
                   >
-                    <span className="mr-2 font-medium">{contact.platform}:</span>
-                    <span className="text-muted-foreground truncate text-xs sm:text-sm">{contact.id}</span>
-                    <ExternalLinkIcon className="ml-2 h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity text-stone-500 dark:text-stone-400" />
+                    <div className="flex items-center min-w-0">
+                      <span className="mr-2 font-medium">{contact.platform}:</span>
+                      <span className="text-muted-foreground truncate text-xs sm:text-sm">{contact.id}</span>
+                    </div>
+                    <ExternalLinkIcon className="h-4 w-4 text-stone-500 dark:text-stone-400 shrink-0" />
                   </Button>
                   <Button
                     variant="ghost"
